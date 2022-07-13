@@ -6,7 +6,7 @@
 }
 body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background-image: url(./assets/db\ test.png);
+   background-image: url(./assets/db\test.png);
 }
 
 
@@ -98,7 +98,6 @@ nav {
 }
 
 
-
 .titulo-index {
     padding-top: 2em;
 }
@@ -139,7 +138,6 @@ nav {
 
 .goku-vegeta {
     display:"";
-    
 }
 
 

@@ -1,0 +1,23 @@
+.footer {
+    background-color: pink;
+    height: 3.8rem;
+    display: flex;
+    flex-direction: row-reverse;
+    color: black;
+    width: 100%;
+    align-items: center;
+    
+    &-text {
+        color: black;
+
+    &:hover {
+        color: red;
+        transition: 0.4s;
+    }    
+    }
+}
+.copyright{
+    display: flex;
+    position: relative;
+    padding-right: 35%;
+}

@@ -1,0 +1,51 @@
+
+header {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/Logo.png);
+}
+nav {
+    font-size: 17px;
+    padding-top: 8em;
+   margin-left: 9%;
+}
+
+.texto-personajes {
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline-block;
+    position: relative;
+
+    &  a {
+        color: red;  
+        background-color: white;
+        border: 5px solid black;
+        border-radius: 5px 5px 0 0 ;
+        border-bottom: none;
+        margin-right: 1px;
+    }
+
+    & :hover {
+        background-color: black;
+        transition: 0.4s;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    nav {
+        font-size: 17px;
+        padding-top: 8em;
+        margin-left: 56%;
+    }
+}
+@media screen and (min-width: 1920px) {
+nav {
+    font-size: 17px;
+    padding-top: 8em;
+   margin-left: 67%;
+}
+}

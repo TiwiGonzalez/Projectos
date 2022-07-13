@@ -1,0 +1,81 @@
+header {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/Logo.png); }
+
+nav {
+  font-size: 17px;
+  padding-top: 8em;
+  margin-left: 9%; }
+
+.texto-personajes {
+  text-align: center; }
+
+#menu ul li {
+  display: inline-block;
+  position: relative; }
+  #menu ul li a {
+    color: red;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+    margin-right: 1px; }
+  #menu ul li :hover {
+    background-color: black;
+    transition: 0.4s; }
+
+@media screen and (min-width: 768px) {
+  nav {
+    font-size: 17px;
+    padding-top: 8em;
+    margin-left: 56%; } }
+
+@media screen and (min-width: 1920px) {
+  nav {
+    font-size: 17px;
+    padding-top: 8em;
+    margin-left: 67%; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(../assets/db\test.png); }
+
+.footer {
+  background-color: pink;
+  height: 3.8rem;
+  display: flex;
+  flex-direction: row-reverse;
+  color: black;
+  width: 100%;
+  align-items: center; }
+  .footer-text {
+    color: black; }
+    .footer-text:hover {
+      color: red;
+      transition: 0.4s; }
+
+.copyright {
+  display: flex;
+  position: relative;
+  padding-right: 35%; }
+
+.videos {
+  width: 383px;
+  height: 315px; }
+
+@media screen and (min-width: 768px) {
+  .videos {
+    width: 560px;
+    height: 315px; } }
+
+@media screen and (min-width: 1920px) {
+  .videos {
+    width: 650px;
+    height: 415px; } }
