@@ -1,19 +1,22 @@
+@mixin sizes ($width, $height) {
+    height: $height;
+    width:  $width;
+}
+
+
 .videos {
-    width: 383px;
-    height: 315px;
+    @include sizes(383px, 315px)
 }
 
 
 @media screen and (min-width: 768px){
     .videos{
-        width: 560px;
-        height: 315px;
+        @include sizes(560px, 315px)
     }
 }
 
 @media screen and (min-width: 1920px) {
     .videos{
-        width: 650px;
-        height: 415px;
+        @include sizes(650px, 415px)
     }
 }
